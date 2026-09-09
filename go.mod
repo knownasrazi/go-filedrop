@@ -1,3 +1,3 @@
-﻿module github.com/knownasrazi/go-filedrop
+module github.com/knownasrazi/go-filedrop
 
 go 1.22
