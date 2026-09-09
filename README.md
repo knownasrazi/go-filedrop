@@ -1,61 +1,42 @@
-﻿<div align="center">
+<div align="center">
 
-# go-filedrop
-
-**Files that vanish.**
-
-![license](https://img.shields.io/github/license/knownasrazi/go-filedrop?style=flat-square&color=ebe7e0&label=license)
-![version](https://img.shields.io/badge/version-1.0.0-ebe7e0?style=flat-square&label=version)
-![lang](https://img.shields.io/badge/lang-go-ede9e3?style=flat-square&label=lang)
-
-Go filedrop - ephemeral sharing with in-memory expiry.
+![license](https://img.shields.io/github/license/knownasrazi/go-filedrop?style=flat-square&color=ebe7e0) ![lang](https://img.shields.io/badge/lang-Go-ede9e3?style=flat-square) ![version](https://img.shields.io/badge/version-1.0.0-ebe7e0?style=flat-square)
 
 </div>
 
 ---
 
-## Why go-filedrop?
+# go-filedrop — Files that vanish.
 
-> Files that vanish. - built for vibe coders and web developers who ship with taste.
+Go filedrop - ephemeral sharing with in-memory expiry.
 
-Go filedrop - ephemeral sharing with in-memory expiry. This template keeps the cream aesthetic - stone, ink, and low contrast - and ships with a clean structure you can vibe-code on top of.
+---
 
-## Stack
+## Story
 
-- **Language:** go
-- **Style:** Tailwind cream tokens, Biome where applicable
-- **Quality:** CI, lint, and a minimal test harness
+We built go-filedrop because vibe coding needs tools that respect attention. Not another dashboard. Just a surface to work.
 
-## Get started
+## Architecture
+
+```
+go-filedrop/
+  src/        — core logic (Go)
+  public/     — static assets
+  README.md   — you are here
+```
+
+- **Go** — the whole thing
+- **Clean** — #fdfcfa background, #1a1a1a ink
+- **No framework bloat** — you can read every file in 5 minutes
+
+## Install
 
 ```bash
 git clone https://github.com/knownasrazi/go-filedrop.git
 cd go-filedrop
+go mod tidy
 ```
-
-Language-specific quick start is inside.
-
-## Structure
-
-```
-go-filedrop/
-  README.md
-  LICENSE
-  src/ or app/  # language entry
-```
-
-## Cream tokens
-
-Cream #fdfcfa, stone #ebe7e0, ink #1a1a1a.
 
 ## License
 
-[MIT](./LICENSE) + [Razi](https://github.com/knownasrazi)
-
----
-
-<div align="center">
-
-**go-filedrop** - Go filedrop - ephemeral sharing with in-memory expiry.
-
-</div>
+MIT + [Razi](https://github.com/knownasrazi)
